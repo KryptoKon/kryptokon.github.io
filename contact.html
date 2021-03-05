@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://kit.fontawesome.com/0046ec7adb.js" crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/master.css">
+	<title>Hello</title>
+</head>
+<body>
+
+	<div class="header">
+	  <h1>Hello</h1>
+	</div>
+
+	<ul class="topnav">
+	  <li><a title="Home Page" href="index.html"><i class="fas fa-home"></i></a></li>
+	  <li><a title="Web Design" href="design.html"><i class="fab fa-chrome"></i></a></li>
+	  <li><a title="My Travels" href="travels.html"><i class="fas fa-mountain"></i></a></li>
+	  <li><a title="Contact Me" class="active" href="#"><i class="fas fa-envelope"></i></a></li>
+	  <li class="right"><a title="Who am I?" href="about.html"><i class="fas fa-question"></i></a></li>
+	</ul>
+
+	<div class="container">
+	  <div style="text-align:center">
+	    <h2>Contact Me</h2>
+	    <p>Feel free to leave me a message here:</p>
+	  </div>
+	  <div class="row">
+	    <div class="column">
+	      <img src="images/mail.jpg" style="width:100%">
+	    </div>
+	    <div class="column">
+	      <form action="/action_page.php">
+	        <label for="fname">First Name</label>
+	        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+	        <label for="lname">Last Name</label>
+	        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	        <label for="country">Country</label>
+	        <select id="country" name="country">
+	          <option value="australia">Australia</option>
+	          <option value="canada">Canada</option>
+	          <option value="usa">USA</option>
+	        </select>
+	        <label for="subject">Subject</label>
+	        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+	        <input type="submit" value="Submit">
+	      </form>
+	    </div>
+	  </div>
+	</div>
+
+	
+
+	<div class="footer">
+  		<h1>Eric Lee 2021 <i class="fas fa-copyright"></i></h1>
+	</div>
+
+	
+</body>
+</html>
